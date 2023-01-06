@@ -119,7 +119,7 @@ header {
    width: 75%;
    height: 300px;
    margin: 120px auto;
-   background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+   background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
    background-blend-mode: normal;
    border-radius: 8px;
    
