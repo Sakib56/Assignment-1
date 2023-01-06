@@ -37,6 +37,7 @@ header {
     color: #005FAC;
     border-radius: 5px;
     border: none;
+    background-color: white;
 }
 
 /* start failures style */
@@ -79,7 +80,115 @@ header {
     font-weight: 400;
     font-size: 17px;
     line-height: 30px;
+    color: #444343
 }
 .failure-section ul li i{
     color: #16D887;
+}
+/* my plans section style */
+.my-plans-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+   
+}
+.my-plans-content{
+    display: flex;
+    padding: 0 230px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.my-plans-content-item{
+   text-align: center;
+}
+.my-plans-content-item h2{
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.my-plans-content-item p{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+/* positive mindset section style */
+.positive-mindset{
+   width: 75%;
+   height: 300px;
+   margin: 120px auto;
+   background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+   background-blend-mode: normal;
+   border-radius: 8px;
+   
+}
+.positive-mindset-content{
+    padding: 70px;
+}
+.positive-mindset-content h2{
+    font-weight: 900;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.positive-mindset-content button{
+    margin-top: 30px;
+}
+/* footer section style */
+footer{
+    width: 100%;
+    height: 550px;
+    background-color: #151414;
+    color: #FFFFFF;
+    display: flex
+}
+.future-part{
+    padding: 130px 230px;
+}
+
+.future-part-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+
+}
+.future-part-description{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.phn-no{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.social-link-icon img{
+    margin-right: 20px;
+}
+.subscribe-part{
+    padding: 130px 230px;
+}
+.subscribe-part-title{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.subscribe-part input{
+    padding: 15px 50px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+.subscribe-part button{
+    padding: 20px 35px;
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
 }
