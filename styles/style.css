@@ -1,11 +1,12 @@
 * {
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 /* banner styles */
 header {
     width: 100%;
-    height: 100vh;
+    height: 800px;
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
 }
@@ -14,6 +15,7 @@ header {
     max-width: 500px;
     padding-left: 900px;
     padding-top: 210px;
+    text-align: right;
 }
 
 .banner h1 {
@@ -25,7 +27,7 @@ header {
 .banner p {
     margin-top: 25px;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 17px;
     color: #f6eded;
     margin-bottom: 30px;
 }
@@ -41,48 +43,48 @@ header {
 }
 
 /* start failures style */
-.failure-section {
+.failure-achievement-section {
     width: 75%;
     height: 700px;
     margin: 130px auto 0;
 
 }
 
-.failure-section-content {
+.failure-achievement-section-content {
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 
-.failure-section-text {
+.failure-achievement-section-text {
     margin-left: 90px;
     max-width: 400px;
 }
 
-.failure-section h2 {
+.failure-achievement-section h2 {
     font-weight: 700;
     font-size: 40px;
 }
 
-.failure-section p {
+.failure-achievement-section p {
     font-weight: 400;
     font-size: 18px;
-    color: #444343;
+    color: #605f5f;
     margin-top: 24px;
     margin-bottom: 20px;
     line-height: 30px;
 
 }
 
-.failure-section ul li {
+.failure-achievement-section ul li {
     list-style: none;
     margin-left: -42px;
     font-weight: 400;
     font-size: 17px;
     line-height: 30px;
-    color: #444343
+    color: #969292
 }
-.failure-section ul li i{
+.failure-achievement-section ul li i{
     color: #16D887;
 }
 /* my plans section style */
@@ -114,8 +116,8 @@ header {
     font-size: 25px;
     color: #737272;
 }
-/* positive mindset section style */
-.positive-mindset{
+/* watch section style */
+.watch-section{
    width: 75%;
    height: 300px;
    margin: 120px auto;
@@ -124,15 +126,15 @@ header {
    border-radius: 8px;
    
 }
-.positive-mindset-content{
+.watch-section-content{
     padding: 70px;
 }
-.positive-mindset-content h2{
+.watch-section-content h2{
     font-weight: 900;
     font-size: 40px;
     color: #FFFFFF;
 }
-.positive-mindset-content button{
+.watch-section-content button{
     margin-top: 30px;
 }
 /* footer section style */
@@ -144,7 +146,8 @@ footer{
     display: flex
 }
 .future-part{
-    padding: 130px 230px;
+    padding: 130px 200px;
+    color: #9a9494;
 }
 
 .future-part-title{
@@ -158,6 +161,7 @@ footer{
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 24px;
+    
 }
 .phn-no{
     font-weight: 400;
@@ -183,6 +187,8 @@ footer{
     border-radius: 8px;
     color: #FFFFFF;
     margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 18px;
 }
 .subscribe-part button{
     padding: 20px 35px;
